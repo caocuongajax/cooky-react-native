@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { SafeAreaView, Text, TouchableHighlight } from 'react-native';
 
-const AboutScreen = ({ navigation }) => (
-    <SafeAreaView>
-        <Text>Screen: About</Text>
-    </SafeAreaView>
-)
+class AboutScreen extends Component {
+    render() {
+        return (
+            <SafeAreaView style={{ flex: 1 }}>
+            </SafeAreaView>
+        )
+    }
+}
 export default AboutScreen;
